@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48x48.png">
+        <style>.preloader{position:fixed;left:0;top:0;width:100%;height:100%;background-color:#1CA06E;background-image:url(img/preloader.svg);background-position:center;background-repeat:no-repeat;-webkit-background-size:70px 70px;background-size:70px;z-index:3;-webkit-transition:1s all;-o-transition:1s all;transition:1s all;opacity:1;visibility:visible;}.spinner{width:75px;height:75px;border:8px solid #FCE152;-webkit-border-radius:50%;border-radius:50%;border-top-color:#E0C536;position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-animation:2s spinner infinite linear;animation:2s spinner infinite linear;}.done{opacity:0;visibility:hidden;}@-webkit-keyframes spinner{from{-webkit-transform:translate(-50%, -50%)rotate(0deg);transform:translate(-50%, -50%)rotate(0deg);}to{-webkit-transform:translate(-50%,-50%)rotate(360deg);transform:translate(-50%,-50%)rotate(360deg);}}@keyframes spinner{from{-webkit-transform:translate(-50%, -50%)rotate(0deg);transform:translate(-50%, -50%)rotate(0deg);}to{-webkit-transform:translate(-50%,-50%)rotate(360deg);transform:translate(-50%,-50%)rotate(360deg);}}html{overflow:hidden}</style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+        <title>Продукция | Туймаада-Нефть</title>
+    </head>
+    <body>
+        <div id="page-preloader" class="preloader"><div class="spinner"></div></div>
+        <header>
+            <div class="header-bg">
+                <div class="container header">
+                    <a href="index.html"><img src="img/logo.svg" width="426.17" height="85" alt="Туймаада-Нефть" href="index.html" class="logo"></a>
+                    <a href="index.html"><img src="img/logo-320.svg" width="65" height="85" alt="Туймаада-Нефть" href="index.html" class="logo-320px"></a>
+                    <div class="float-right navbar navbar-expand-lg px-0">
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="lang-contacts float-right">
+                       <div class="dropdown header-lang">
+                            <a class="header-lang-active" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                RUS<i class="fas fa-chevron-down header-lang-arrow"></i>
+                            </a>
+                            <div class="dropdown-menu header-lang-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item header-lang-item" href="eng/index.html">ENG</a>
+                            </div>
+                        </div>
+                        <div class="header-contacts">
+                            <p class="text-right">+7 (4112) 32-43-32</p>
+                            <p>tuymaada.neft@yandex.ru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg p-0">
+                        <div class="collapse navbar-collapse" id="navbarResponsive">
+                            <div class="nav-item nav-lang">
+                                <a class="nav-link nav-link-item nav-lang-item nav-lang-item-active" href="#">RUS</a>
+                                <a class="nav-link nav-link-item nav-lang-item" href="eng/index.html">ENG</a>
+                                <a class="nav-link nav-link-item nav-call-item" data-toggle="modal" data-target="#callModal"><i class="fas fa-phone"></i><p>Обратный звонок</p></a>
+                            </div>
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-item nav-list-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        О КОМПАНИИ
+                                        <span class="icon-list"></span>
+                                        <span class="icon-list"></span>
+                                    </a>
+                                    <div class="dropdown-menu nav-menu py-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item nav-menu-item" href="about.html">ОБЩАЯ ИНФОРМАЦИЯ</a>
+                                        <a class="dropdown-item nav-menu-item" href="infrastructure.html">ИНФРАСТРУКТУРА</a>
+                                        <a class="dropdown-item nav-menu-item" href="managment.html">РУКОВОДСТВО</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-item nav-list-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        УСТОЙЧИВОЕ РАЗВИТИЕ
+                                        <span class="icon-list"></span>
+                                        <span class="icon-list"></span>
+                                    </a>
+                                    <div class="dropdown-menu nav-menu py-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item nav-menu-item" href="ecology.html">ЭКОЛОГИЧЕСКАЯ ПОЛИТИКА</a>
+                                        <a class="dropdown-item nav-menu-item" href="safety.html">ПРОМЫШЛЕННАЯ БЕЗОПАСНОСТЬ</a>
+                                        <a class="dropdown-item nav-menu-item" href="social.html">СОЦИАЛЬНАЯ ОТВЕТСТВЕННОСТЬ</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-item nav-list-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        КЛИЕНТАМ
+                                        <span class="icon-list"></span>
+                                        <span class="icon-list"></span>
+                                    </a>
+                                    <div class="dropdown-menu nav-menu py-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item nav-menu-item" href="services.html">УСЛУГИ</a>
+                                        <a class="dropdown-item nav-menu-item" href="products.html">ПРОДУКЦИЯ</a>
+                                        <a class="dropdown-item nav-menu-item" href="fuel-stations.html">СЕТЬ АЗС</a>
+                                        <a class="dropdown-item nav-menu-item" href="information.html">ИНФОРМАЦИЯ</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-item nav-list-item" href="investors.html">ИНВЕСТОРАМ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link nav-link-item nav-list-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        ПРЕСС-ЦЕНТР
+                                        <span class="icon-list"></span>
+                                        <span class="icon-list"></span>
+                                    </a>
+                                    <div class="dropdown-menu nav-menu py-0" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item nav-menu-item" href="news.html">НОВОСТИ</a>
+                                        <a class="dropdown-item nav-menu-item" href="press.html">СМИ О НАС</a>
+                                        <a class="dropdown-item nav-menu-item" href="photo.html">ФОТОГАЛЕРЕИ</a>
+                                        <a class="dropdown-item nav-menu-item" href="video.html">ВИДЕОГАЛЕРЕИ</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-item nav-list-item" href="contacts.html">КОНТАКТЫ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-link-item nav-list-item" href="https://tuneft.pkc.su">ЛИЧНЫЙ КАБИНЕТ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>    
+        </header>
+        <main>
+            <div class="container">
+                <div class="page-breadcrumb col-sm-12 px-0">
+                   <ol class="breadcrumb p-0 my-0">
+                       <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+                       <li class="breadcrumb-item">Клиентам</li>
+                       <li class="breadcrumb-item">Продукция</li>
+                   </ol>
+                </div>
+                <div class="page-title">
+                    <img class="img-fluid" src="img/products.jpg">
+                    <div class="page-title-name">
+                        <h1>ПРОДУКЦИЯ</h1>
+                    </div>
+                </div>
+                <div class="page-content">
+                    <p class="page-text">«НК Туймаада-Нефть» реализует только качественную продукцию, отвечающую национальным и международным стандартам.</p>
+                    <ul class="nav-products nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-auto-tab" data-toggle="pill" href="#pills-auto" role="tab" aria-controls="pills-auto" aria-selected="true">Бензин</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-diesel-tab" data-toggle="pill" href="#pills-diesel" role="tab" aria-controls="pills-diesel" aria-selected="false">Дизельное топливо</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-aero-tab" data-toggle="pill" href="#pills-aero" role="tab" aria-controls="pills-aero" aria-selected="false">Авиационное топливо</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-ship-tab" data-toggle="pill" href="#pills-ship" role="tab" aria-controls="pills-ship" aria-selected="false">Судовое топливо</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-auto" role="tabpanel" aria-labelledby="pills-auto-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-1" src="img/sprite-products.png">
+                                        <p class="products-text">Бензин Супер-98</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="Бензин Супер-98">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-2" src="img/sprite-products.png">
+                                        <p class="products-text">Бензин Премиум-95</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="Бензин Премиум-95">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-3" src="img/sprite-products.png">
+                                        <p class="products-text">Бензин Регуляр-92</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="Бензин Регуляр-92">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-4" src="img/sprite-products.png">
+                                        <p class="products-text">Бензин Нормаль-80</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="Бензин Нормаль-80">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-diesel" role="tabpanel" aria-labelledby="pills-diesel-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-5" src="img/sprite-products.png">
+                                        <p class="products-text">Дизельное топливо летнее</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="ДТ летнее">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-6" src="img/sprite-products.png">
+                                        <p class="products-text">Дизельное топливо зимнее</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="ДТ зимнее">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-7" src="img/sprite-products.png">
+                                        <p class="products-text">Дизельное топливо арктическое</p>
+                                        <hr>
+                                        <button data-toggle="modal" data-target="#productsModal" data-whatever="ДТ арктическое">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-aero" role="tabpanel" aria-labelledby="pills-aero-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-8" src="img/sprite-products.png">
+                                        <p class="products-text">Керосин ТС-1</p>
+                                        <hr>
+                                        <button id="ts-1" data-toggle="modal" data-target="#productsModal" data-whatever="Керосин ТС-1">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-ship" role="tabpanel" aria-labelledby="pills-ship-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 d-flex align-item-stretch">
+                                    <div class="products-block text-center">
+                                        <img class="products-icon products-icon-9" src="img/sprite-products.png">
+                                        <p class="products-text">Топливо судовое маловязкое</p>
+                                        <hr>
+                                        <button id="tsm" data-toggle="modal" data-target="#productsModal" data-whatever="ТСМ">ЗАКАЗАТЬ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-advantage">
+                        <h2 class="text-center">ПРЕИМУЩЕСТВА ПРИ ЗАКАЗЕ ТОПЛИВА У НАС</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-1" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Доставка топлива специальным транспортом</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-2" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Оперативная обработка заказов</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-3" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Поставка нефтепродуктов точно в срок</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-4" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Постоянное наличие дизтоплива различных сортов</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-5" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Оптимальное соотношение цены и качества топлива</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-flex align-items-center">
+                                <div class="products-advantage-wrapper">
+                                    <img class="products-advantage-icon advantage-icon-6" src="img/sprite-advantage.png">
+                                </div>
+                                <p>Скидки и спецпредложения для постоянных клиентов</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="clients-partners-title text-center"><span>НАШИ ПАРТНЕРЫ</span></p>
+                    <div class="swiper-container s2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide text-center">
+                                <a href="https://anpz.rosneft.ru/about/Glance/OperationalStructure/Pererabotka/anpz"><img class="partners-logo rosneft img-fluid" src="img/sprite-partners.png" alt="Роснефть"></a>
+                            </div>
+                            <div class="swiper-slide text-center">
+                                <a href="https://onpz.gazprom-neft.ru"><img class="partners-logo gazprom img-fluid" src="img/sprite-partners.png" alt="Газпром"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next partners-arrows"></div>
+                        <div class="swiper-button-prev partners-arrows"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="productsModal" tabindex="-1" role="dialog" aria-labelledby="productsModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="productsModalLabel">Заказ топлива</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container-fluid">
+                                <form id="fuel-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="fuel-name" class="col-form-label">Топливо:</label>
+                                                <input type="text" class="form-control" id="fuel-name" disabled>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="fuel-service" class="col-form-label">Услуга:</label>
+                                                <select class="form-control" id="fuel-service">
+                                                    <option>Оптовая закупка</option>
+                                                    <option>Передвижная АЗС</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="fuel-liters" class="col-form-label">Объем, литров:</label>
+                                                <input type="text" class="form-control" id="fuel-liters">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="fuel-date" class="col-form-label">Дата доставки:</label>
+                                                <input type="date" class="form-control" id="fuel-date">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="fuel-address" class="col-form-label">Адрес доставки:</label>
+                                                <input type="text" class="form-control" id="fuel-address">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 ml-auto">
+                                            <div class="form-group">
+                                                <label for="name" class="col-form-label">Ф.И.О:<span>*</span></label>
+                                                <input type="text" pattern="^[А-Яа-яЁё\s]+$" class="form-control" id="name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email" class="col-form-label">Электронная почта:<span>*</span></label>
+                                                <input type="email" class="form-control" id="email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="telphone" class="col-form-label">Телефон:<span>*</span></label>
+                                                <input type="tel" pattern="^[0-9-+\s()]*$" class="form-control" id="telphone" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="message" class="col-form-label">Доп. информация:</label>
+                                                <textarea class="form-control" id="message" rows="5"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="buy-btn" type="submit" form="fuel-form">ОФОРМИТЬ ЗАКАЗ</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="callModal" tabindex="-1" role="dialog" aria-labelledby="callModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-call" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="callModalLabel">Обратный звонок</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Укажите данные и мы свяжимся с Вами в течение 15 минут либо в удобное для Вас время.</p>
+                            <form id="call-form">
+                                <div class="form-group">
+                                    <label for="name" class="col-form-label">Ф.И.О.:<span>*</span></label>
+                                    <input type="text" pattern="^[А-Яа-яЁё\s]+$" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telphone" class="col-form-label">Телефон:<span>*</span></label>
+                                    <input type="tel" pattern="^[0-9-+\s()]*$" class="form-control" id="telphone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="time" class="col-form-label">Дата и время звонка:</label>
+                                    <input type="text" class="form-control" id="time">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="col-form-label">Тема звонка:</label>
+                                    <textarea class="form-control" id="message" rows="2"></textarea>
+                                </div>
+                                <button class="buy-btn" type="submit" form="call-form">ПЕРЕЗВОНИТЬ</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-copyright">
+                    <img src="img/logo-footer.svg" alt="Туймаада-Нефть" href="index.html" class="footer-logo">
+                    <p class="copyright">© АО «НК ТУЙМААДА-НЕФТЬ», 2018</p>
+                </div>
+                <div class="footer-social">
+                    <a class="social" href="https://www.facebook.com/tneft"><i class="fab fa-facebook"></i></a>
+                    <a class="social" href="https://www.instagram.com/tuymaada_neft"><i class="fab fa-instagram"></i></a>
+                    <a class="social" href="https://www.youtube.com/channel/UCbyHerJhdmWXi6A1mXwHcXA"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script>window.Popper || document.write('<script src="js/popper.min.js"><\/script>')</script>    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>if(typeof($.fn.modal) === 'undefined'){document.write('<script src="js/bootstrap.min.js"><\/script>')}</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js"></script>
+        <script>window.Swiper || document.write('<script src="js/swiper.min.js"><\/script>')</script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
