@@ -4,5 +4,4 @@
 <h1>Разработка</h1>
 <img align="center" src="https://user-images.githubusercontent.com/47634965/67651442-4a5b2f80-f984-11e9-85f8-d1ebc1802ea7.png">
 <h1>Дизайн</h1>
-<h2>Инструментарий</h2>
 <img align="center" src="https://user-images.githubusercontent.com/47634965/68064318-67657900-fd5d-11e9-91cd-6b201ffb5162.png">
