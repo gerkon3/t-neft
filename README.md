@@ -62,3 +62,7 @@
 <br>
 <img src="https://user-images.githubusercontent.com/47634965/68302068-97f23d80-00e4-11ea-9013-b35d719f0444.png">
 <br>
+<p>Компоновка элементов на странице была выполнена с помощью 12-ти колоночной сетки, соответствующей системе сеток фреймворка Bootstrap 4.</p>
+<br>
+<p align="center"><img width="600" src="https://user-images.githubusercontent.com/47634965/68306811-937e5280-00ed-11ea-8350-cd696d8141b6.png"></p>
+<br>
